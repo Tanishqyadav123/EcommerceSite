@@ -1,0 +1,15 @@
+.CollectionItems{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 2rem;
+}
+.innerCollection{
+      margin-top: 3rem;
+}
+.innerCollection h2{
+      text-align: center;
+      margin-block: 1rem;
+      text-decoration: wavy;
+}

@@ -1,0 +1,45 @@
+
+.NewsLetterSection{
+     height: 60vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.innerNewsSection{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 1.32rem;
+}
+.heading {
+     font-size: 2.6rem;
+     color: rgb(69, 67, 67);
+     text-decoration: none;
+}
+.subheading{
+     font-weight: 400;
+     font-size: 1.1rem;
+
+}
+
+#subscribeEmail{
+     width: 40vw;
+     padding: 1rem;
+     border: 1px solid gray;
+     background-color: transparent;
+     border-radius:25px ;
+}
+
+.subscribe {
+     padding: 1.3rem;
+     position: absolute;
+     right: 27%;
+     border: none;
+     border-radius: 30px;
+     background-color: black;
+     width: 8rem;
+     color: white;
+     font-size: 12px;
+}

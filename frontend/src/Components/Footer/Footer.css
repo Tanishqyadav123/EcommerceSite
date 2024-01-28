@@ -1,0 +1,29 @@
+.footerSection{
+     height: max-content;
+     width: 100%;
+
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+     margin-inline:  0;
+     margin-top: 4rem;
+}
+.Innerfooter{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 1.4rem;
+     flex-direction: column;
+}
+.logo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.footerlinks > ul {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     list-style-type: none;
+     gap: 2rem;
+}

@@ -1,0 +1,69 @@
+.MainAdminSection{
+    height: 100vh;
+    width: 100%;
+}
+
+.innerAdminMainSection{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.prices{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.addProductForm {
+   margin: 4rem;
+   height: 100%;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+   gap: 3rem;
+}
+
+.addProductForm input {
+    padding: 0.6rem;
+    height: 3rem;
+    width: 30vw;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+}
+
+input::placeholder{
+    font-style: italic;
+}
+
+.innerfield{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+select {
+   padding: 0.6rem;
+   height: 3rem;
+   width: 30vw;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   outline: none;
+}
+
+.imageUploader{
+    width : 7rem
+}
+
+.error {
+     color: red;
+     font-weight: bold;
+     margin-bottom: 2rem;
+
+}

@@ -1,0 +1,29 @@
+.ShopCategorySection{
+     height: max-content;
+     width: 100%;
+     margin-block: 4rem;
+
+}
+.categoryProducts{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 3rem;
+}
+#banner {
+     margin: 1rem;
+}
+
+.shopCategorySort{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-block: 3rem;
+}
+.sortBtn{
+      border: 1px solid gray;
+      padding: 9px 12px;
+      border-radius: 20px;
+}

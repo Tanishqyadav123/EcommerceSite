@@ -1,0 +1,106 @@
+.CartSection{
+     height: 100vh;
+     width: 100%;
+     margin-top: 2rem;
+     padding: 1px;
+}
+
+.innerCartSection{
+     margin-top: 3rem;
+     height: 100%;
+     width: 100%;
+}
+
+.ShopDetails{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3rem;
+     flex-direction: column;
+}
+.productTitle{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3rem;
+}
+
+ .photo img{
+     width: 3rem;
+     object-fit: cover;
+}
+table {
+     margin-left: 4rem;
+}
+
+tr{
+     margin: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+}
+
+td,th {
+     width: 60vw;
+}
+
+.cartTotal{
+    width: 40vw;
+     margin-top: 4rem;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+     padding: 2rem;
+}
+.subTotal , .Shipping , .Total{
+    
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 28rem;
+
+}
+
+.checkout{
+     border: none;
+     padding: 8px;
+     margin-top: 1rem;
+     font-size: 14px;
+     font-weight: bolder;
+     background-color: rgb(251, 58, 58);
+     color: #ddd;
+}
+
+.TotalSection{
+    width: 80%;
+    margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 4rem;
+}
+
+.promoField{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.promoField input {
+     height: 56px;
+     border-radius: 30px;
+     padding-inline: 1.6rem;
+     border: none;
+}
+
+.promoField button {
+    position: absolute;
+      right: 5rem;
+     background-color: black;
+     color: white;
+}
+.promoField button:hover {
+     background-color: black;
+     color: white;
+}

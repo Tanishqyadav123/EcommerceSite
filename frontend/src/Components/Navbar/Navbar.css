@@ -1,0 +1,63 @@
+.logo {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+}
+
+.navbar-section{
+     margin-bottom: 0;
+     padding-top: 2rem;
+     height: 3rem;
+     
+
+}
+
+.inner_navbar{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     height: 2rem;
+
+}
+
+.links{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3rem;
+     list-style-type: none;
+}
+.loginAndCart{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
+}
+
+.loginAndCart img {
+    position: relative;
+     width: 1.7rem;
+}
+.btn {
+     padding: 8px 18px;
+     border: 1px solid black;
+     border-radius: 20px;
+     cursor: pointer;
+}
+.cart_counter{
+    position: absolute;
+    top: 1.6rem;
+    right: 7.5rem;
+     height: 15px;
+     width: 15px;
+     background-color: red;
+     border-radius: 50%;
+     font-size: 12px;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.navHr{
+     border: 1px solid rgb(142, 27, 27);
+}

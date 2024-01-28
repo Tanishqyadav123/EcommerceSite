@@ -1,0 +1,44 @@
+.listProductSection{
+     height: 100vh;
+     width: 100%;
+     
+}
+
+.innerProductSection{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 4rem;
+     flex-direction: column;
+     gap: 2rem;
+
+}
+
+.productheading {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 4rem;
+
+}
+
+#prodName {
+     margin-inline: 2rem;
+     width: 25vw;
+}
+.ShowingProd{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5rem;
+}
+.ShowingProd img {
+     width: 3rem;
+}
+
+#crossIcon {
+     width: 1rem;
+     margin-left: 3.9rem;
+}

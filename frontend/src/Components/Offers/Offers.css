@@ -1,0 +1,9 @@
+.offerSection{
+     height: 65vh;
+     background-color: cyan;
+     padding: 1px;
+     width: 100%;
+}
+.innerOffers{
+     margin-top: 4rem;
+}

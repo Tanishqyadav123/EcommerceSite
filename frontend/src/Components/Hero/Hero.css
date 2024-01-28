@@ -1,0 +1,33 @@
+.hero_container{
+     height: max-content;
+     width: 100%;
+}
+.Inner_Hero{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 2rem;
+     gap: 5rem;
+}
+.lefthero{
+    display: flex;
+    padding: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+     height: 80vh;
+     width: 70%;
+     gap: 1.4rem;
+}
+
+.lefthero h1 {
+     font-size: 3.4rem;
+     font-weight: bolder;
+}
+.righthero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
